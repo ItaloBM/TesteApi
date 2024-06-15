@@ -10,7 +10,7 @@
       { "handle": "filesystem" },
       {
         "src": "/send",
-        "dest": "api/email"
+        "dest": "testeapi/email"
       }
     ]
   }
