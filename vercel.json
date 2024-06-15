@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "functions": {
+      "api/email": {
+        "runtime": "vercel/node@20.0.0",
+        "includeFiles": "app.js"
+      }
+    },
+    "routes": [
+      { "handle": "filesystem" },
+      {
+        "src": "/send-email",
+        "dest": "api/email"
+      }
+    ]
+  }
+  
