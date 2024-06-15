@@ -9,7 +9,7 @@
     "routes": [
       { "handle": "filesystem" },
       {
-        "src": "/send-email",
+        "src": "/send",
         "dest": "api/email"
       }
     ]
